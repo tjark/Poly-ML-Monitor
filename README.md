@@ -15,7 +15,7 @@ Installation Notes (Linux x86-64)
 
 1. Install [Java](http://www.java.com/).
 
-2. Download and unpack poly-ml-monitor.tgz.
+2. Download and unpack [poly-ml-monitor.tgz](https://bitbucket.org/tjark/poly-ml-monitor/downloads/poly-ml-monitor.tgz).
 
 3. Run `poly-ml-monitor`.
 
