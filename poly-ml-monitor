@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd "$(dirname "$0")"
+
+java -ea -classpath bin:bin/jfreechart-1.0.14.jar:bin/jcommon-1.0.17.jar com.Main
