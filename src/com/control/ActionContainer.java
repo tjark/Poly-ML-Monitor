@@ -44,7 +44,7 @@ public class ActionContainer
         public void actionPerformed(ActionEvent e)
         {
             JOptionPane.showMessageDialog(null,
-                                          "<html>Poly/ML Process Monitor 1.0<br>By Magnus Stenqvist and Tjark Weber<br><br><a href='https://bitbucket.org/tjark/poly-ml-monitor'>https://bitbucket.org/tjark/poly-ml-monitor</a></html>",
+                                          "<html>Poly/ML Process Monitor 1.1<br>By Magnus Stenqvist and Tjark Weber<br><br><a href='https://bitbucket.org/tjark/poly-ml-monitor'>https://bitbucket.org/tjark/poly-ml-monitor</a></html>",
                                           "About Poly/ML Process Monitor",
                                           JOptionPane.INFORMATION_MESSAGE);
         }

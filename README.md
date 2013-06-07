@@ -12,25 +12,27 @@ Project Website
 
 [https://bitbucket.org/tjark/poly-ml-monitor/][2]
 
-Installation Notes (Linux x86-64)
----------------------------------
+Installation Notes (Linux)
+--------------------------
 
-1. Install [Java][3].
+1. Install [Java][3]. Make sure that `java` invokes the Java VM.
 
-2. Download and unpack [poly-ml-monitor.tgz][4].
+2. Install [Poly/ML][4]. Make sure that `poly` invokes Poly/ML.
 
-3. Run `poly-ml-monitor`.
+3. Download and unpack [poly-ml-monitor.tgz][5].
 
-Other operating systems and hardware architectures are currently
-unsupported.
+4. Run `poly-ml-monitor`.
+
+Other operating systems are currently unsupported.
 
 Bugs
 ----
 
-Please report bugs and feature requests via the [issue tracker][5].
+Please report bugs and feature requests via the [issue tracker][6].
 
 [1]: https://bitbucket.org/tjark/poly-ml-monitor/downloads/screenshot.png
 [2]: https://bitbucket.org/tjark/poly-ml-monitor/
 [3]: http://www.java.com/
-[4]: https://bitbucket.org/tjark/poly-ml-monitor/downloads/poly-ml-monitor.tgz
-[5]: https://bitbucket.org/tjark/poly-ml-monitor/issues
+[4]: http://www.polyml.org/
+[5]: https://bitbucket.org/tjark/poly-ml-monitor/downloads/poly-ml-monitor.tgz
+[6]: https://bitbucket.org/tjark/poly-ml-monitor/issues

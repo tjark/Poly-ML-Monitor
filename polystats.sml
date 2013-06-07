@@ -3,7 +3,7 @@ fun int_to_string n =
   if n < 0 then
     "-" ^ Int.toString (~n)
   else
-    Int.toString n
+    Int.toString n;
 
 fun XML_stats stats =
 let
@@ -72,10 +72,10 @@ end
 
 fun stats_or_fail n =
   XML_stats (PolyML.Statistics.getRemoteStats n)
-    handle Fail _ => ""
+    handle Fail _ => "";
 
 fun wrap_poly s =
-  "<polymlresponse>\n" ^ s ^ "</polymlresponse>\n"
+  "<polymlresponse>\n" ^ s ^ "</polymlresponse>\n";
 
 fun main () : unit =
   (case TextIO.inputLine TextIO.stdIn of
@@ -87,3 +87,5 @@ fun main () : unit =
       | NONE => OS.Process.exit OS.Process.success)
   | NONE => OS.Process.exit OS.Process.success)
   handle Size => OS.Process.exit OS.Process.success;
+
+main ();

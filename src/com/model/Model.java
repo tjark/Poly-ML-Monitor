@@ -31,7 +31,7 @@ public class Model implements ActionListener
      */
 
     private int updateDelay = 500; // milliseconds
-    private String polyCmd = "bin/polystats"; // command to run Poly/ML
+    private String polyCmd = "poly -q --use polystats.sml"; // command to run Poly/ML
     private Integer selectedProcess = null;
 
     /**
