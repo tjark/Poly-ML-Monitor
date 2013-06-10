@@ -23,6 +23,12 @@ Installation Notes (Linux)
 
 4. Run `poly-ml-monitor`.
 
+*Caveat:* If you have several versions of Poly/ML on your machine,
+make sure that the Poly/ML monitor and the application(s) that you
+want to monitor are using the same version. Use `Settings > Poly/ML
+Command` to point the Poly/ML monitor to a specific Poly/ML
+executable.
+
 Other operating systems are currently unsupported.
 
 Bugs
