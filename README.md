@@ -17,7 +17,9 @@ Installation Notes (Linux)
 
 1. Install [Java][3]. Make sure that `java` invokes the Java VM.
 
-2. Install [Poly/ML][4]. Make sure that `poly` invokes Poly/ML.
+2. Install [Poly/ML][4]. Use the latest version from SVN trunk, *not*
+the current release version 5.5. Make sure that `poly` invokes
+Poly/ML.
 
 3. Download and unpack [poly-ml-monitor.tgz][5].
 
