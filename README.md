@@ -5,24 +5,24 @@ A graphical monitoring application for Poly/ML processes.
 
 By Magnus Stenqvist and Tjark Weber <tjark.weber@it.uu.se>.
 
-![Poly/ML Monitor][1]
+![Poly/ML Monitor](screenshot.png)
 
 Project Website
 ---------------
 
-[https://bitbucket.org/tjark/poly-ml-monitor/][2]
+https://github.com/tjark/Poly-ML-Monitor
 
 Installation Notes (Linux)
 --------------------------
 
-1. Install [Java][3]. Make sure that `java` invokes the Java VM.
+1. Install [Java][1]. Make sure that `java` invokes the Java VM.
 
-2. Install [Poly/ML][4]. The monitor is known to work with Poly/ML
+2. Install [Poly/ML][2]. The monitor is known to work with Poly/ML
 5.5.3. Use other versions at your own risk.
 
-3. Download and unpack [poly-ml-monitor.tgz][5].
+3. Make `poly-ml-monitor.tgz`.
 
-4. Run `poly-ml-monitor`.
+4. Unpack `poly-ml-monitor.tgz`. Run `poly-ml-monitor`.
 
 *Caveat:* If you have several versions of Poly/ML on your machine,
 make sure that the Poly/ML monitor and the application(s) that you
@@ -36,11 +36,8 @@ a feature or pull request.
 Bugs
 ----
 
-Please report bugs and feature requests via the [issue tracker][6].
+Please report bugs and feature requests via the [issue tracker][3].
 
-[1]: https://bitbucket.org/tjark/poly-ml-monitor/downloads/screenshot.png
-[2]: https://bitbucket.org/tjark/poly-ml-monitor/
-[3]: http://www.java.com/
-[4]: http://www.polyml.org/
-[5]: https://bitbucket.org/tjark/poly-ml-monitor/downloads/poly-ml-monitor.tgz
-[6]: https://bitbucket.org/tjark/poly-ml-monitor/issues
+[1]: http://www.java.com/
+[2]: http://www.polyml.org/
+[3]: https://github.com/tjark/Poly-ML-Monitor/issues
